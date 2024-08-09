@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let estaturas=["1.60", "1.61", "1.62", "1.63", "1.64", "1.65", "1.66", "1.67", "1.68", "1.69"];
+        estaturas.push("1.70");
+        estaturas.pop();
+        estaturas.pop();
+        estaturas.pop();
+        document.write(estaturas.join(' ')+'<br>');
+
+        let jugadores=["Messi", "DiMaria", "Enzo", "Alvarez", "Dibu"];
+        jugadores.unshift('Molina');
+        jugadores.pop("Dibu");
+        document.write(jugadores.join(' ')+'<br>');
+        
+        let edad=["4", "34", "11", "19", "7", "39", "74", "12", "91"];
+        edad.shift();
+        edad.shift();
+        edad.shift();
+        edad.shift();
+        edad.shift();
+        document.write(edad);
+    </script>
+</body>
+</html>
